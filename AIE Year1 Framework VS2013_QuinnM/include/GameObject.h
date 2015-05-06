@@ -10,6 +10,9 @@ class GameObjConstructor;
 class GameObject  {
 	friend class GameObjConstructor;
 public:
+	GameObject();
+	~GameObject();
+
 	float x, y;
 	float velocityX, velocityY;
 	//component blackboard?
@@ -24,9 +27,6 @@ public:
 
 private:
 	std::vector<Component> components;
-
-	GameObject();
-	~GameObject();
 };
 
 #endif

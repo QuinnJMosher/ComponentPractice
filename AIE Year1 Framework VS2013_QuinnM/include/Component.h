@@ -1,6 +1,7 @@
 #ifndef _Component_h_
 #define _Component_h_
-//#include "GameObject.h"
+
+#include "GameObject.h"
 
 class GameObject;
 
