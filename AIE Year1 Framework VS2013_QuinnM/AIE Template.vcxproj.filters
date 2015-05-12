@@ -21,6 +21,12 @@
     <ClCompile Include="source\GameObjConstructor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GraphicsComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Component.h">
@@ -30,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GraphicsComponent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

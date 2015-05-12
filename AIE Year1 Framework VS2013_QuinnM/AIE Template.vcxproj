@@ -91,12 +91,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="source\GameObjConstructor.cpp" />
+    <ClCompile Include="source\GameObject.cpp" />
+    <ClCompile Include="source\GraphicsComponent.cpp" />
     <ClCompile Include="source\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Component.h" />
     <ClInclude Include="include\GameObjConstructor.h" />
     <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\GraphicsComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
